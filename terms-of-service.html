@@ -1,421 +1,513 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Terms of Service for Calorie Vita - Your comprehensive calorie tracking and nutrition app">
-  <title>Terms of Service - Calorie Vita</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-      line-height: 1.6;
-      color: #333;
-      background-color: #f5f5f5;
-      padding: 20px;
-    }
-    .container {
-      max-width: 900px;
-      margin: 0 auto;
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      color: #16a34a;
-      margin-bottom: 10px;
-      font-size: 32px;
-    }
-    .last-updated {
-      color: #666;
-      margin-bottom: 30px;
-      font-size: 14px;
-    }
-    h2 {
-      color: #15803d;
-      margin-top: 30px;
-      margin-bottom: 15px;
-      font-size: 20px;
-    }
-    .section {
-      margin-bottom: 30px;
-      padding: 20px;
-      background: #f9fafb;
-      border-radius: 8px;
-      border-left: 4px solid #16a34a;
-    }
-    ul {
-      margin-left: 20px;
-      margin-top: 10px;
-    }
-    li {
-      margin-bottom: 8px;
-    }
-    .contact-info {
-      background: #f0fdf4;
-      padding: 20px;
-      border-radius: 8px;
-      margin-top: 20px;
-    }
-    .contact-info strong {
-      color: #15803d;
-    }
-    .disclaimer {
-      background: #fef3c7;
-      border-left: 4px solid #f59e0b;
-      padding: 20px;
-      border-radius: 8px;
-      margin: 20px 0;
-    }
-    .disclaimer strong {
-      color: #d97706;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terms and Conditions for Calorie Vita - AI-powered calorie tracking and nutrition app by SISIR Labs">
+    <title>Terms and Conditions - Calorie Vita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #4CAF50;
+            --primary-dark: #388E3C;
+            --text-dark: #1A1A1A;
+            --text-light: #666666;
+            --bg-light: #FFFFFF;
+            --bg-gray: #F8F9FA;
+            --shadow-lg: 0 8px 32px rgba(0,0,0,0.16);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Inter', sans-serif;
+            color: var(--text-dark);
+            line-height: 1.6;
+            background: var(--bg-gray);
+        }
+        nav {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            color: var(--primary);
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .back-btn {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        .back-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+        }
+        .content {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 24px;
+            box-shadow: var(--shadow-lg);
+            animation: fadeInUp 0.6s ease-out;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(40px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+        }
+        h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-dark);
+        }
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            color: var(--text-dark);
+        }
+        p {
+            color: var(--text-light);
+            line-height: 1.8;
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+        }
+        ul, ol {
+            margin: 1rem 0;
+            padding-left: 2rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+        li {
+            margin-bottom: 0.75rem;
+            font-size: 1.05rem;
+        }
+        strong {
+            color: var(--text-dark);
+        }
+        .disclaimer-box {
+            background: #FFF3E0;
+            border-left: 4px solid #FF9800;
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .disclaimer-box p {
+            color: var(--text-dark);
+            margin-bottom: 0;
+        }
+        .highlight-box {
+            background: #FFF8E1;
+            border-left: 4px solid #FFC107;
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        .highlight-box p {
+            color: var(--text-dark);
+            margin-bottom: 0;
+        }
+        .contact-box {
+            background: #E8F5E9;
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+        @media (max-width: 768px) {
+            .content {
+                padding: 1.5rem;
+                margin: 2rem 1rem;
+            }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Terms & Conditions</h1>
-    <p class="last-updated">Last updated: December 2024</p>
+    <nav>
+        <div class="nav-container">
+            <a href="blog.html" class="logo">
+                <img src="appnew.png" alt="Calorie Vita" style="width: 45px; height: 45px; object-fit: contain; border-radius: 10px;">
+                <span>Calorie Vita</span>
+            </a>
+            <a href="blog.html" class="back-btn">&larr; Back to Home</a>
+        </div>
+    </nav>
 
-    <div class="section">
-      <h2>1. Acceptance of Terms</h2>
-      <p>By downloading, installing, or using the Calorie Vita mobile application ("App"), you agree to be bound by these Terms and Conditions ("Terms").</p>
-      <p><strong>Agreement to Terms:</strong></p>
-      <ul>
-        <li>You acknowledge that you have read and understood these Terms</li>
-        <li>You agree to comply with all applicable laws and regulations</li>
-        <li>You represent that you are at least 13 years of age</li>
-        <li>You have the legal capacity to enter into this agreement</li>
-      </ul>
-      <p><strong>Updates to Terms:</strong></p>
-      <ul>
-        <li>We may modify these Terms at any time</li>
-        <li>Continued use constitutes acceptance of changes</li>
-        <li>We will notify you of material changes</li>
-        <li>Your rights and obligations remain in effect</li>
-      </ul>
-    </div>
+    <div class="content">
+        <h1>Terms and Conditions</h1>
+        <p><strong>Effective Date:</strong> February 11, 2026</p>
+        <p><strong>Last Updated:</strong> February 11, 2026</p>
 
-    <div class="section">
-      <h2>2. Description of Service</h2>
-      <p>Calorie Vita is a comprehensive health and wellness mobile application designed to assist users with nutritional tracking and fitness goal management.</p>
-      <p><strong>Core Features:</strong></p>
-      <ul>
-        <li>Food logging and calorie tracking with photo recognition</li>
-        <li>AI-powered nutrition analysis and recommendations</li>
-        <li>Fitness goal setting and progress monitoring</li>
-        <li>Personalized health coaching and insights</li>
-        <li>Macro and micronutrient tracking</li>
-        <li>Health analytics and comprehensive reporting</li>
-        <li>Weight management and BMI tracking</li>
-      </ul>
-      <p><strong>AI-Powered Services:</strong></p>
-      <ul>
-        <li>Advanced AI integration via OpenRouter API for intelligent nutrition analysis</li>
-        <li>Machine learning algorithms for personalized meal recommendations</li>
-        <li>Automated nutritional content analysis from food photographs</li>
-        <li>Intelligent progress tracking and pattern recognition</li>
-        <li>AI-driven health insights and coaching suggestions</li>
-      </ul>
-      <p><strong>Integration Capabilities:</strong></p>
-      <ul>
-        <li>Google Fit and Health Connect integration</li>
-        <li>Wearable device synchronization</li>
-        <li>Cloud-based data storage and synchronization via Firebase</li>
-        <li>Data export and portability features</li>
-        <li>Third-party health platform compatibility</li>
-      </ul>
-      <p>The Service is provided on an "as-is" and "as-available" basis. We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time with or without notice.</p>
-    </div>
-
-    <div class="section">
-      <h2>3. User Accounts and Registration</h2>
-      <p>To access certain features, you must create an account with accurate information.</p>
-      <p><strong>Account Requirements:</strong></p>
-      <ul>
-        <li>Provide accurate and complete information</li>
-        <li>Maintain the security of your account credentials</li>
-        <li>Notify us immediately of any unauthorized access</li>
-        <li>You are responsible for all activities under your account</li>
-      </ul>
-      <p><strong>Account Restrictions:</strong></p>
-      <ul>
-        <li>One account per person</li>
-        <li>No sharing of account credentials</li>
-        <li>No creating accounts for others</li>
-        <li>No impersonation or false information</li>
-      </ul>
-      <p><strong>Account Termination:</strong></p>
-      <ul>
-        <li>We may suspend or terminate accounts for violations</li>
-        <li>You may delete your account at any time</li>
-        <li>Data deletion policies apply upon termination</li>
-        <li>Some information may be retained for legal purposes</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>4. Acceptable Use Policy</h2>
-      <p>You agree to use the App only for lawful purposes and in accordance with these Terms.</p>
-      <p><strong>Permitted Uses:</strong></p>
-      <ul>
-        <li>Personal health and fitness tracking</li>
-        <li>Educational and informational purposes</li>
-        <li>Sharing your own health data</li>
-        <li>Participating in community features</li>
-      </ul>
-      <p><strong>Prohibited Uses:</strong></p>
-      <ul>
-        <li>Violating any applicable laws or regulations</li>
-        <li>Infringing on intellectual property rights</li>
-        <li>Transmitting harmful or malicious content</li>
-        <li>Attempting to gain unauthorized access</li>
-        <li>Interfering with the App's functionality</li>
-        <li>Creating fake or misleading information</li>
-        <li>Harassing or abusing other users</li>
-        <li>Commercial use without permission</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>5. Health and Medical Disclaimer</h2>
-      <div class="disclaimer">
-        <p><strong>IMPORTANT MEDICAL DISCLAIMER:</strong> Calorie Vita is a nutritional tracking and wellness tool and is NOT a medical device, healthcare provider, or substitute for professional medical advice, diagnosis, or treatment.</p>
-      </div>
-      <p><strong>Health Information Disclaimer:</strong></p>
-      <ul>
-        <li>The App provides general health, fitness, and nutritional information for educational and informational purposes only</li>
-        <li>All content, including AI-generated recommendations, is not intended as medical advice, diagnosis, or treatment</li>
-        <li>You must always consult qualified healthcare professionals before making any health-related decisions, including dietary changes, exercise programs, or weight management strategies</li>
-        <li>We do not diagnose, treat, cure, or prevent any disease, medical condition, or health problem</li>
-      </ul>
-      <p><strong>AI-Generated Content Limitations:</strong></p>
-      <ul>
-        <li>AI recommendations and nutrition analysis are automated and for informational purposes only</li>
-        <li>AI-generated content may contain errors, inaccuracies, or be incomplete</li>
-        <li>Individual nutritional needs vary significantly based on medical conditions, medications, allergies, and personal health factors</li>
-        <li>AI analysis should never replace professional nutritional counseling or medical advice</li>
-      </ul>
-      <p><strong>Health and Safety Warnings:</strong></p>
-      <ul>
-        <li>Not suitable for individuals with eating disorders, diabetes, cardiovascular disease, or other serious medical conditions without physician oversight</li>
-        <li>Pregnant or nursing women must consult healthcare providers before using dietary tracking features</li>
-        <li>Individuals taking medications that interact with diet must seek medical guidance</li>
-        <li>Emergency medical situations require immediate professional medical attention - do not rely on the App for emergencies</li>
-      </ul>
-      <p><strong>User Responsibility and Acknowledgment:</strong></p>
-      <ul>
-        <li>You acknowledge sole responsibility for all health and fitness decisions</li>
-        <li>You agree to consult licensed healthcare providers before implementing any dietary or fitness changes</li>
-        <li>You agree to monitor your health status and seek immediate medical attention for any adverse symptoms</li>
-        <li>You understand the App is a supplementary tool and not a replacement for professional medical care</li>
-        <li>You agree to inform your healthcare providers about your use of this App and any data collected</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>6. Intellectual Property Rights</h2>
-      <p>The App and its content are protected by intellectual property laws.</p>
-      <p><strong>Our Rights:</strong></p>
-      <ul>
-        <li>We own all rights to the App and its content</li>
-        <li>Trademarks, logos, and branding are our property</li>
-        <li>Software code and algorithms are proprietary</li>
-        <li>User interface and design elements are protected</li>
-      </ul>
-      <p><strong>Your Rights:</strong></p>
-      <ul>
-        <li>You retain ownership of your personal data</li>
-        <li>You may use the App for personal, non-commercial purposes</li>
-        <li>You may export your data in accordance with our policies</li>
-        <li>You may provide feedback and suggestions</li>
-      </ul>
-      <p><strong>Restrictions:</strong></p>
-      <ul>
-        <li>No copying, modifying, or distributing the App</li>
-        <li>No reverse engineering or decompilation</li>
-        <li>No creating derivative works</li>
-        <li>No removing copyright or proprietary notices</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>7. Privacy and Data Protection</h2>
-      <p>Your privacy is important to us. Please review our Privacy Policy for detailed information.</p>
-      <p><strong>Data Collection:</strong></p>
-      <ul>
-        <li>We collect information necessary to provide our services</li>
-        <li>Personal health data is handled with special care</li>
-        <li>We implement appropriate security measures</li>
-        <li>We comply with applicable privacy laws</li>
-      </ul>
-      <p><strong>Your Rights:</strong></p>
-      <ul>
-        <li>Access, update, or delete your personal information</li>
-        <li>Control how your data is used and shared</li>
-        <li>Export your data in a portable format</li>
-        <li>Opt out of certain data processing activities</li>
-      </ul>
-      <p><strong>Data Sharing:</strong></p>
-      <ul>
-        <li>We do not sell your personal information</li>
-        <li>Limited sharing with service providers</li>
-        <li>Compliance with legal requirements</li>
-        <li>Protection of our rights and property</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>8. Subscription and Payment Terms</h2>
-      <p>Some features may require a paid subscription.</p>
-      <p><strong>Subscription Plans:</strong></p>
-      <ul>
-        <li>Free tier with basic features</li>
-        <li>Premium subscriptions with advanced features</li>
-        <li>Family plans for multiple users</li>
-        <li>Enterprise plans for organizations</li>
-      </ul>
-      <p><strong>Payment Terms:</strong></p>
-      <ul>
-        <li>Subscriptions are billed in advance</li>
-        <li>Automatic renewal unless cancelled</li>
-        <li>Prices may change with notice</li>
-        <li>Refunds subject to our refund policy</li>
-      </ul>
-      <p><strong>Cancellation:</strong></p>
-      <ul>
-        <li>Cancel anytime through your account settings</li>
-        <li>Access continues until the end of the billing period</li>
-        <li>No refunds for partial periods</li>
-        <li>Data retention policies apply after cancellation</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>9. Disclaimers and Limitations</h2>
-      <p><strong>THE APP IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND.</strong></p>
-      <p><strong>Service Availability:</strong></p>
-      <ul>
-        <li>We strive for high availability but cannot guarantee 100% uptime</li>
-        <li>Maintenance and updates may cause temporary interruptions</li>
-        <li>Third-party services may affect functionality</li>
-        <li>We reserve the right to modify or discontinue features</li>
-      </ul>
-      <p><strong>Limitation of Liability:</strong></p>
-      <ul>
-        <li>We are not liable for indirect or consequential damages</li>
-        <li>Our total liability is limited to the amount you paid us</li>
-        <li>We are not responsible for third-party actions</li>
-        <li>Some jurisdictions may not allow liability limitations</li>
-      </ul>
-      <p><strong>Accuracy of Information:</strong></p>
-      <ul>
-        <li>We strive for accuracy but cannot guarantee perfection</li>
-        <li>Information may become outdated</li>
-        <li>Users should verify important information</li>
-        <li>We are not liable for reliance on inaccurate information</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>10. Indemnification</h2>
-      <p>You agree to indemnify and hold us harmless from certain claims.</p>
-      <p><strong>Your Indemnification Obligations:</strong></p>
-      <ul>
-        <li>Claims arising from your use of the App</li>
-        <li>Violations of these Terms or applicable laws</li>
-        <li>Infringement of third-party rights</li>
-        <li>Misuse of the App or its features</li>
-      </ul>
-      <p><strong>Our Rights:</strong></p>
-      <ul>
-        <li>We may assume control of any defense</li>
-        <li>You must cooperate with our defense efforts</li>
-        <li>We may settle claims as we see fit</li>
-        <li>You remain liable for any damages or costs</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>11. Termination</h2>
-      <p>Either party may terminate this agreement at any time.</p>
-      <p><strong>Termination by You:</strong></p>
-      <ul>
-        <li>Delete your account through the App settings</li>
-        <li>Stop using the App and delete it from your device</li>
-        <li>Contact us to request account deletion</li>
-        <li>Data deletion policies will apply</li>
-      </ul>
-      <p><strong>Termination by Us:</strong></p>
-      <ul>
-        <li>For violations of these Terms</li>
-        <li>For fraudulent or illegal activity</li>
-        <li>For non-payment of subscription fees</li>
-        <li>For any reason with appropriate notice</li>
-      </ul>
-      <p><strong>Effect of Termination:</strong></p>
-      <ul>
-        <li>Your right to use the App ceases immediately</li>
-        <li>We may delete your account and data</li>
-        <li>Some provisions survive termination</li>
-        <li>You remain liable for obligations incurred before termination</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>12. Governing Law and Dispute Resolution</h2>
-      <p>These Terms shall be governed by and construed in accordance with applicable laws and regulations.</p>
-      <p><strong>Governing Law:</strong></p>
-      <ul>
-        <li>These Terms are governed by applicable laws</li>
-        <li>International users remain subject to their local consumer protection laws and regulations</li>
-        <li>We comply with applicable data protection regulations including GDPR (where applicable)</li>
-        <li>Certain provisions may vary by jurisdiction to comply with local legal requirements</li>
-      </ul>
-      <p><strong>Informal Dispute Resolution:</strong></p>
-      <ul>
-        <li>Prior to initiating formal proceedings, parties agree to attempt good-faith negotiation</li>
-        <li>Notice of dispute must be sent in writing to: calorievita@gmail.com</li>
-        <li>Parties shall have 30 days from notice to attempt informal resolution</li>
-        <li>This requirement does not apply to claims seeking injunctive relief</li>
-      </ul>
-      <p><strong>Legal Proceedings and Jurisdiction:</strong></p>
-      <ul>
-        <li>Either party may seek equitable relief (including injunctive relief) in any competent court</li>
-        <li>Claims must be brought within one (1) year of the cause of action arising, after which claims are time-barred</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>13. Contact Information</h2>
-      <p>For questions, concerns, or inquiries regarding these Terms and Conditions or our services, please contact us:</p>
-      <div class="contact-info">
-        <p><strong>Email:</strong> calorievita@gmail.com</p>
-        <p><strong>You can reach us for:</strong></p>
+        <h2>1. Acceptance of Terms</h2>
+        <p>By downloading, installing, or using the Calorie Vita mobile application ("App"), developed and operated by SISIR Labs ("we," "our," or "us"), you agree to be bound by these Terms and Conditions ("Terms"). If you do not agree to these Terms, please do not use the App.</p>
         <ul>
-          <li>General inquiries and customer support</li>
-          <li>Technical support and troubleshooting</li>
-          <li>Legal and compliance matters</li>
-          <li>Privacy and data protection concerns</li>
-          <li>Feedback and suggestions</li>
+            <li>You acknowledge that you have read and understood these Terms.</li>
+            <li>You agree to comply with all applicable laws and regulations.</li>
+            <li>You represent that you are at least <strong>18 years of age</strong>, or have parental/guardian consent and supervision if under 18.</li>
+            <li>You have the legal capacity to enter into this agreement.</li>
         </ul>
-        <p><strong>Expected Response Times:</strong></p>
+        <p>We may modify these Terms at any time. We will notify you of material changes through the App or via email. Continued use of the App following any changes constitutes acceptance of the modified Terms. If you disagree with any changes, you should stop using the App and delete your account.</p>
+
+        <h2>2. Description of Service</h2>
+        <p>Calorie Vita is a comprehensive health and wellness mobile application designed to assist users with nutritional tracking and fitness goal management. The App is provided <strong>free of charge</strong> with no in-app purchases or subscription fees.</p>
+
+        <h3>2.1 Core Features</h3>
         <ul>
-          <li>General customer support: Within 24-48 business hours</li>
-          <li>Technical support issues: Within 12-24 business hours</li>
-          <li>Legal and compliance matters: Within 5-7 business days</li>
-          <li>Data protection requests (GDPR/Privacy): Within 30 days as required by law</li>
-          <li>Urgent security issues: Immediate priority response</li>
+            <li>AI-powered food recognition and nutrition analysis from photos</li>
+            <li>Manual food logging and calorie/macronutrient tracking</li>
+            <li>Barcode scanning for packaged food nutrition data</li>
+            <li>Fitness goal setting and progress monitoring</li>
+            <li>Macro and micronutrient tracking with daily analytics</li>
+            <li>Weight management and BMI tracking</li>
+            <li>Exercise logging and calorie burn tracking</li>
+            <li>Intermittent fasting timer with multiple protocols</li>
+            <li>Data export (CSV, PDF) and sharing capabilities</li>
         </ul>
-        <p><strong>Note:</strong> Response times may vary during holidays or periods of high volume. We appreciate your patience and will respond to all inquiries as promptly as possible.</p>
-      </div>
+
+        <h3>2.2 AI-Powered Services</h3>
+        <ul>
+            <li><strong>"Trainer Sisir" AI Chatbot:</strong> An AI-powered personal nutrition and fitness coach that provides personalized guidance based on your profile, dietary data, and fitness goals.</li>
+            <li><strong>Food Photo Analysis:</strong> Automated nutritional content analysis from food photographs using advanced AI models (via OpenRouter API).</li>
+            <li><strong>Intelligent Recommendations:</strong> AI-driven meal suggestions, nutrition coaching, and health insights.</li>
+        </ul>
+
+        <h3>2.3 Health Platform Integrations</h3>
+        <ul>
+            <li><strong>Apple HealthKit (iOS):</strong> Optional read-only integration for steps, calories burned, and workout data.</li>
+            <li><strong>Google Health Connect (Android):</strong> Optional read-only integration for steps, calories burned, and exercise data.</li>
+        </ul>
+
+        <p>The Service is provided on an "as-is" and "as-available" basis. We reserve the right to modify, suspend, or discontinue any aspect of the Service at any time with or without notice.</p>
+
+        <h2>3. User Accounts and Registration</h2>
+
+        <h3>3.1 Account Creation</h3>
+        <p>To access the App's features, you must create an account using one of the following methods:</p>
+        <ul>
+            <li>Email and password registration</li>
+            <li>Google Sign-In</li>
+            <li>Sign in with Apple</li>
+        </ul>
+
+        <h3>3.2 Account Responsibilities</h3>
+        <p>You agree to:</p>
+        <ul>
+            <li>Provide accurate, current, and complete information during registration.</li>
+            <li>Maintain and promptly update your information to keep it accurate.</li>
+            <li>Maintain the security and confidentiality of your account credentials.</li>
+            <li>Accept responsibility for all activities that occur under your account.</li>
+            <li>Notify us immediately of any unauthorized access or security breach at <strong>calorievita@gmail.com</strong>.</li>
+        </ul>
+
+        <h3>3.3 Account Restrictions</h3>
+        <ul>
+            <li>One account per person.</li>
+            <li>No sharing of account credentials with third parties.</li>
+            <li>No creating accounts on behalf of others without authorization.</li>
+            <li>No impersonation of any person or entity.</li>
+        </ul>
+
+        <h3>3.4 Account Termination</h3>
+        <ul>
+            <li>You may delete your account at any time through the App settings (Settings &rarr; Account &rarr; Delete Account).</li>
+            <li>We may suspend or terminate accounts that violate these Terms, engage in fraudulent activity, or abuse the Service.</li>
+            <li>Upon account deletion, your personal data will be permanently deleted within 30 days, subject to applicable legal retention requirements.</li>
+        </ul>
+
+        <h2>4. Acceptable Use Policy</h2>
+
+        <h3>4.1 Permitted Uses</h3>
+        <p>You may use the App for:</p>
+        <ul>
+            <li>Personal health and nutrition tracking.</li>
+            <li>Educational and informational purposes related to health and wellness.</li>
+            <li>Accessing AI-powered nutrition insights and coaching for personal use.</li>
+            <li>Exporting and sharing your own health data.</li>
+        </ul>
+
+        <h3>4.2 Prohibited Activities</h3>
+        <p>You agree not to:</p>
+        <ul>
+            <li>Use the App for any illegal or unauthorized purpose.</li>
+            <li>Attempt to gain unauthorized access to our systems, servers, or other users' accounts.</li>
+            <li>Reverse engineer, decompile, disassemble, or attempt to derive the source code of the App.</li>
+            <li>Interfere with, disrupt, or overburden the App's functionality, servers, or networks.</li>
+            <li>Create false, misleading, or fraudulent health information within the App.</li>
+            <li>Impersonate any person or entity, or misrepresent your affiliation with any person or entity.</li>
+            <li>Collect, harvest, or scrape user information or data from the App without authorization.</li>
+            <li>Use the App for commercial purposes without our prior written consent.</li>
+            <li>Upload malicious content, viruses, or harmful code.</li>
+            <li>Abuse the AI features by submitting inappropriate, harmful, or non-food-related content.</li>
+        </ul>
+
+        <h2>5. Health and Medical Disclaimer</h2>
+        <div class="disclaimer-box">
+            <p><strong>IMPORTANT MEDICAL DISCLAIMER:</strong> Calorie Vita is a nutritional tracking and wellness tool. It is <strong>NOT</strong> a medical device, healthcare provider, or substitute for professional medical advice, diagnosis, or treatment.</p>
+        </div>
+
+        <h3>5.1 General Health Disclaimer</h3>
+        <ul>
+            <li>The App provides general health, fitness, and nutritional information for <strong>educational and informational purposes only</strong>.</li>
+            <li>All content, including AI-generated recommendations from "Trainer Sisir," is not intended as medical advice, diagnosis, or treatment.</li>
+            <li>You must always consult qualified healthcare professionals before making any health-related decisions, including changes to your diet, exercise program, or weight management strategy.</li>
+            <li>We do not diagnose, treat, cure, or prevent any disease, medical condition, or health problem.</li>
+        </ul>
+
+        <h3>5.2 AI-Generated Content Limitations</h3>
+        <ul>
+            <li>AI recommendations and nutrition analysis are automated and may contain errors, inaccuracies, or be incomplete.</li>
+            <li>AI food recognition may misidentify foods, portion sizes, or nutritional content.</li>
+            <li>Individual nutritional needs vary significantly based on medical conditions, medications, allergies, and personal health factors.</li>
+            <li>AI-generated coaching should never replace professional nutritional counseling or medical advice.</li>
+            <li>The "Trainer Sisir" AI feature is a digital coaching tool and is not a licensed healthcare professional.</li>
+        </ul>
+
+        <h3>5.3 Health and Safety Warnings</h3>
+        <ul>
+            <li>The App is <strong>not suitable</strong> for managing eating disorders, diabetes, cardiovascular disease, or other serious medical conditions without physician oversight.</li>
+            <li>Pregnant or nursing individuals must consult healthcare providers before using dietary tracking features.</li>
+            <li>Individuals taking medications that interact with diet must seek medical guidance before using the App.</li>
+            <li>In case of a medical emergency, seek immediate professional medical attention — <strong>do not rely on the App</strong>.</li>
+        </ul>
+
+        <h3>5.4 User Acknowledgment</h3>
+        <ul>
+            <li>You acknowledge sole responsibility for all health and fitness decisions you make.</li>
+            <li>You agree to consult licensed healthcare providers before implementing any dietary or fitness changes based on information from the App.</li>
+            <li>You understand the App is a supplementary tool and not a replacement for professional medical care.</li>
+            <li>You use the App at your own risk.</li>
+        </ul>
+
+        <h2>6. Apple HealthKit Terms</h2>
+        <div class="highlight-box">
+            <p><strong>Apple HealthKit Integration:</strong> The App integrates with Apple HealthKit to provide enhanced health tracking. The following terms apply specifically to HealthKit data:</p>
+        </div>
+        <ul>
+            <li>HealthKit data is accessed in <strong>read-only</strong> mode and is used exclusively to provide health and fitness features within the App.</li>
+            <li>HealthKit data is <strong>not</strong> used for advertising, marketing, or data-mining purposes.</li>
+            <li>HealthKit data is <strong>not</strong> sold, shared with, or disclosed to third parties for advertising or marketing purposes.</li>
+            <li>HealthKit data is <strong>not</strong> used to build user profiles for purposes unrelated to health, fitness, or wellness functionality.</li>
+            <li>You may revoke HealthKit access at any time through your device's Settings &rarr; Privacy &rarr; Health, and the App will continue to function without this data.</li>
+        </ul>
+
+        <h2>7. Intellectual Property</h2>
+        <p>The App, including its design, user interface, features, code, AI technology, algorithms, branding, logos, and all content, is owned by SISIR Labs and protected by copyright, trademark, and other intellectual property laws.</p>
+
+        <h3>7.1 Our Rights</h3>
+        <ul>
+            <li>All intellectual property rights in the App and its content remain with SISIR Labs.</li>
+            <li>The Calorie Vita name, logo, and associated branding are our trademarks.</li>
+            <li>All AI models, algorithms, and proprietary technology are our confidential property.</li>
+        </ul>
+
+        <h3>7.2 Your Rights</h3>
+        <ul>
+            <li>You retain full ownership of your personal data, food logs, and health information.</li>
+            <li>You are granted a limited, non-exclusive, non-transferable, revocable license to use the App for personal, non-commercial purposes.</li>
+            <li>You may export your personal data in accordance with our data portability features.</li>
+        </ul>
+
+        <h3>7.3 Restrictions</h3>
+        <ul>
+            <li>You may not copy, modify, adapt, distribute, or create derivative works based on the App.</li>
+            <li>You may not reverse engineer, decompile, or disassemble the App or any part thereof.</li>
+            <li>You may not remove, alter, or obscure any copyright, trademark, or proprietary notices.</li>
+            <li>You may not use our branding, trademarks, or any part of the App's content without prior written consent.</li>
+        </ul>
+
+        <h2>8. Privacy and Data Protection</h2>
+        <p>Your privacy is important to us. Our collection, use, and protection of your personal information is governed by our <a href="privacy-policy.html" style="color: var(--primary); font-weight: 600;">Privacy Policy</a>, which is incorporated into these Terms by reference.</p>
+        <p>Key data protection commitments:</p>
+        <ul>
+            <li>We do <strong>not</strong> sell your personal information to any third party.</li>
+            <li>We do <strong>not</strong> use your data for advertising purposes.</li>
+            <li>We do <strong>not</strong> track users across apps or websites.</li>
+            <li>You can delete your account and all associated data at any time.</li>
+            <li>You can export your data in CSV or PDF format.</li>
+            <li>We comply with GDPR, CCPA, and other applicable privacy regulations.</li>
+        </ul>
+
+        <h2>9. Third-Party Services</h2>
+        <p>The App relies on the following third-party services to deliver its functionality:</p>
+        <ul>
+            <li><strong>Firebase (Google Cloud Platform):</strong> For authentication, cloud storage, data synchronization, analytics, crashlytics, push notifications, and remote configuration. Governed by <a href="https://firebase.google.com/terms" style="color: var(--primary);">Firebase Terms of Service</a>.</li>
+            <li><strong>OpenRouter API:</strong> For AI-powered food recognition, nutrition analysis, and AI coaching features. Food images are processed in real-time and are not permanently stored by the AI provider.</li>
+            <li><strong>Google Sign-In:</strong> For simplified account creation and authentication. Governed by <a href="https://policies.google.com/terms" style="color: var(--primary);">Google Terms of Service</a>.</li>
+            <li><strong>Apple Sign-In:</strong> For simplified account creation and authentication on iOS. Governed by <a href="https://www.apple.com/legal/internet-services/itunes/" style="color: var(--primary);">Apple Media Services Terms</a>.</li>
+            <li><strong>Public Food Databases:</strong> Open Food Facts and similar public APIs for barcode-based food lookup.</li>
+        </ul>
+        <p>We are not responsible for the practices, content, or availability of third-party services. Your use of third-party services is subject to their respective terms and privacy policies.</p>
+
+        <h2>10. User-Generated Content</h2>
+        <p>You may submit content to the App, including food photos, meal entries, notes, and messages to the AI coach. By submitting content, you:</p>
+        <ul>
+            <li>Represent that you have the right to submit such content and that it does not violate any third-party rights.</li>
+            <li>Grant us a limited license to process your content solely for the purpose of providing App functionality (e.g., AI food analysis).</li>
+            <li>Retain full ownership of your content and may delete it at any time.</li>
+            <li>Agree not to submit content that is illegal, harmful, offensive, or violates any third-party rights.</li>
+        </ul>
+
+        <h2>11. Disclaimers and Limitation of Liability</h2>
+
+        <h3>11.1 Disclaimer of Warranties</h3>
+        <div class="disclaimer-box">
+            <p><strong>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</strong></p>
+        </div>
+        <ul>
+            <li>We do not warrant that the App will be uninterrupted, error-free, or secure at all times.</li>
+            <li>We do not guarantee the accuracy, completeness, or reliability of any nutritional data, AI analysis, or health information provided by the App.</li>
+            <li>AI food recognition may produce inaccurate results, and calorie/nutrient estimates are approximations only.</li>
+            <li>We are not responsible for the availability, accuracy, or quality of third-party services integrated with the App.</li>
+        </ul>
+
+        <h3>11.2 Limitation of Liability</h3>
+        <p>TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:</p>
+        <ul>
+            <li>SISIR Labs and its developers, officers, employees, and agents shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from or related to your use of the App.</li>
+            <li>We shall not be liable for any damages arising from health decisions made based on information provided by the App, including AI-generated recommendations.</li>
+            <li>Our total aggregate liability for all claims arising from or related to the App shall not exceed the amount you paid for the App (which is zero, as the App is free).</li>
+            <li>Some jurisdictions do not allow the exclusion or limitation of certain damages, so these limitations may not apply to you to the extent prohibited by applicable law.</li>
+        </ul>
+
+        <h2>12. Indemnification</h2>
+        <p>You agree to indemnify, defend, and hold harmless SISIR Labs, its developers, officers, employees, and agents from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable legal fees) arising from or related to:</p>
+        <ul>
+            <li>Your use or misuse of the App.</li>
+            <li>Your violation of these Terms or any applicable law or regulation.</li>
+            <li>Your violation of any third-party rights.</li>
+            <li>Health decisions or actions taken based on information provided by the App.</li>
+            <li>Content you submit to the App.</li>
+        </ul>
+
+        <h2>13. Termination</h2>
+
+        <h3>13.1 Termination by You</h3>
+        <ul>
+            <li>You may stop using the App and delete it from your device at any time.</li>
+            <li>You may delete your account through the App settings (Settings &rarr; Account &rarr; Delete Account).</li>
+            <li>You may also email <strong>calorievita@gmail.com</strong> to request account deletion.</li>
+        </ul>
+
+        <h3>13.2 Termination by Us</h3>
+        <ul>
+            <li>We may suspend or terminate your access to the App if you violate these Terms.</li>
+            <li>We may terminate your account for fraudulent, illegal, or abusive activity.</li>
+            <li>We may discontinue the App entirely with reasonable notice to users.</li>
+        </ul>
+
+        <h3>13.3 Effect of Termination</h3>
+        <ul>
+            <li>Your license to use the App ceases immediately upon termination.</li>
+            <li>Upon account deletion, your personal data will be permanently deleted within 30 days.</li>
+            <li>Sections 5 (Health Disclaimer), 7 (Intellectual Property), 11 (Disclaimers and Limitation of Liability), 12 (Indemnification), and 14 (Governing Law) survive termination.</li>
+        </ul>
+
+        <h2>14. Governing Law and Dispute Resolution</h2>
+
+        <h3>14.1 Governing Law</h3>
+        <p>These Terms shall be governed by and construed in accordance with applicable laws. International users remain subject to their local consumer protection laws and regulations.</p>
+
+        <h3>14.2 Informal Resolution</h3>
+        <p>Prior to initiating any formal legal proceedings, you agree to first attempt to resolve any dispute informally by contacting us at <strong>calorievita@gmail.com</strong>. Both parties shall have 30 days from the date of the initial notice to attempt resolution.</p>
+
+        <h3>14.3 Legal Proceedings</h3>
+        <ul>
+            <li>If informal resolution is unsuccessful, either party may pursue legal remedies in any competent court of jurisdiction.</li>
+            <li>Claims must be brought within <strong>one (1) year</strong> of the cause of action arising, after which claims are time-barred to the maximum extent permitted by law.</li>
+            <li>Either party may seek equitable relief, including injunctive relief, in any competent court at any time.</li>
+        </ul>
+
+        <h2>15. Apple App Store Additional Terms</h2>
+        <div class="highlight-box">
+            <p><strong>For users who download the App from the Apple App Store:</strong> The following additional terms apply in accordance with Apple&rsquo;s requirements:</p>
+        </div>
+        <ul>
+            <li>These Terms are between you and SISIR Labs only, and not with Apple Inc. ("Apple"). SISIR Labs, not Apple, is solely responsible for the App and its content.</li>
+            <li>The license granted to you for the App is limited to a non-transferable license to use the App on any Apple-branded device that you own or control as permitted by the Usage Rules set forth in the Apple Media Services Terms and Conditions.</li>
+            <li>SISIR Labs is solely responsible for providing any maintenance and support services for the App. Apple has no obligation to provide maintenance or support services.</li>
+            <li>SISIR Labs is solely responsible for any product warranties, whether express or implied by law. In the event of a warranty failure, you may notify Apple and Apple will refund the purchase price (if any) of the App. Apple has no other warranty obligations.</li>
+            <li>SISIR Labs, not Apple, is responsible for addressing any user or third-party claims relating to the App, including but not limited to: (i) product liability claims; (ii) any claim that the App fails to conform to any applicable legal or regulatory requirement; and (iii) claims arising under consumer protection, privacy, or similar legislation.</li>
+            <li>In the event of any third-party intellectual property infringement claim, SISIR Labs, not Apple, is solely responsible for the investigation, defense, settlement, and discharge of such claim.</li>
+            <li>Apple and its subsidiaries are third-party beneficiaries of these Terms, and upon your acceptance, Apple will have the right to enforce these Terms against you as a third-party beneficiary.</li>
+            <li>You represent and warrant that: (i) you are not located in a country subject to a U.S. Government embargo or designated by the U.S. Government as a "terrorist supporting" country; and (ii) you are not listed on any U.S. Government list of prohibited or restricted parties.</li>
+        </ul>
+
+        <h2>16. General Provisions</h2>
+
+        <h3>16.1 Entire Agreement</h3>
+        <p>These Terms, together with our <a href="privacy-policy.html" style="color: var(--primary); font-weight: 600;">Privacy Policy</a>, constitute the entire agreement between you and SISIR Labs regarding your use of the App.</p>
+
+        <h3>16.2 Severability</h3>
+        <p>If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.</p>
+
+        <h3>16.3 Waiver</h3>
+        <p>No waiver of any term or condition shall be deemed a further or continuing waiver of such term or any other term. Our failure to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.</p>
+
+        <h3>16.4 Assignment</h3>
+        <p>You may not assign or transfer your rights or obligations under these Terms without our prior written consent. We may assign our rights and obligations without restriction.</p>
+
+        <h3>16.5 Force Majeure</h3>
+        <p>We shall not be liable for any failure or delay in performing our obligations due to events beyond our reasonable control, including but not limited to natural disasters, wars, terrorism, pandemics, government actions, internet or telecommunications failures, or third-party service outages.</p>
+
+        <h2>17. Contact Information</h2>
+        <p>For questions, concerns, or inquiries regarding these Terms and Conditions, please contact us:</p>
+        <div class="contact-box">
+            <p><strong>Email:</strong> calorievita@gmail.com</p>
+            <p><strong>Developer:</strong> SISIR Labs</p>
+            <p><strong>Website:</strong> <a href="https://calorievita.com" style="color: var(--primary);">https://calorievita.com</a></p>
+        </div>
+        <p><strong>We handle the following types of inquiries:</strong></p>
+        <ul>
+            <li>General customer support and App issues</li>
+            <li>Account and data-related requests</li>
+            <li>Legal and compliance matters</li>
+            <li>Privacy and data protection concerns</li>
+            <li>Feedback and suggestions</li>
+        </ul>
+        <p><strong>Response Timeframes:</strong></p>
+        <ul>
+            <li>General support: Within 24&ndash;48 business hours</li>
+            <li>Technical issues: Within 12&ndash;24 business hours</li>
+            <li>Legal matters: Within 5&ndash;7 business days</li>
+            <li>Data protection requests: Within 30 days as required by law</li>
+        </ul>
     </div>
-  </div>
 </body>
 </html>
-
